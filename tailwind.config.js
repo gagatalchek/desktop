@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     backgroundImage: {
       "hero-mobile": "url('/images/hero-mobile.jpeg')", // example
-      "main-background": "url('/public/background.png')",
+      "signup-background": "url('/public/background.png')",
     },
     colors: {
       "background-sidebar": "#0E1014",

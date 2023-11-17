@@ -12,10 +12,8 @@ const Login = () => {
 
   return (
     <div className=" flex  flex-col m-auto">
-      <div className="h-[16px] w-[283px] pt-[180px] flex justify-self-center align-middle m-auto mb-[64px]">
-        <h2 className="flex items-center align-middle text-white h-[16px] w-[283px] mb-[64px]">
-          TRADE INVEST Backoffice
-        </h2>
+      <div className="absolute top-[-64px] h-[16px] w-[594px] flex justify-items-center items-center m-auto mb-[64px]">
+        <h2 className="text-white h-[16px]">TRADE INVEST Backoffice</h2>
       </div>
       <div className=" flex flex-col m-auto p-[36px] w-[594px] justify-center align-middle rounded-[24px] border-[1px] border-solid border-[#30363D] bg-[#161B22]">
         <div className=" m-auto w-[387px] h-[74px] mb-[32px] ">
@@ -24,22 +22,27 @@ const Login = () => {
           </p>
           <div className=" flex justify-center align-middle text-[16px] font-medium leading-[24px] text-[#8B949E] ">
             Don't have an account?
-            <Link className="text-[#1F6FEB] ml-[4px]">Start for free</Link>
+            <Link to={"#"} className="text-[#1F6FEB] ml-[4px]">
+              Start for free
+            </Link>
           </div>
         </div>
         <div className="h-[73px] w-[522px] mb-[24px]">
           <p className="text-[#8B949E] text-[14px] font-normal leading-[150%] mb-[8px] ">
             Email address
           </p>
-          <div className=" px-[10] rounded-[6px] border-[1px] border-solid border-[#484F58]">
-            <input className=" px-[10px] h-[44px] w-[522px] bg-[transparent] text-white outline-none	" />
+          <div className=" px-[10] rounded-[6px] border-[1px] border-solid border-[#484F58] bg-[#21262D]">
+            <input
+              placeholder="mail@mail.com"
+              className=" px-[10px] h-[44px] w-[522px] bg-[transparent] text-white outline-none	"
+            />
           </div>
         </div>
         <div className="h-[73px] w-[522px] mb-[24px]">
           <p className="text-[#8B949E] text-[14px] font-normal leading-[150%] mb-[8px]">
             Password
           </p>
-          <div className=" pl-[10px] flex items-center rounded-[6px] border-[1px] border-solid border-[#484F58]">
+          <div className=" pl-[10px] flex items-center rounded-[6px] border-[1px] border-solid border-[#484F58] bg-[#21262D]">
             <input
               type={password ? "text" : "password"}
               placeholder="Password"
