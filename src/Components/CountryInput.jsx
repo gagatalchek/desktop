@@ -1,6 +1,6 @@
 import { useId } from "react";
 
-const CountryInput = () => {
+const CountryInput = (children) => {
   const id = useId();
 
   return (

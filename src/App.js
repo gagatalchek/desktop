@@ -11,13 +11,13 @@ function App() {
   return (
     <div>
       <Router />
-      <SigupLayout>
-        {/* <Login /> */}
-        {/* <Forgot_password /> */}
-        {/* <CreateAccount /> */}
-        {/* <PasswordMail />  */}
-        <FrameAndTradeInvest />
-      </SigupLayout>
+      {/* <SigupLayout> */}
+      {/* <Login /> */}
+      {/* <Forgot_password /> */}
+      {/* <CreateAccount /> */}
+      {/* <PasswordMail />  */}
+      {/* <FrameAndTradeInvest />  */}
+      {/* </SigupLayout> */}
     </div>
   );
 }

@@ -45,7 +45,7 @@ const RouterContainer = () => {
           path="test"
           element={
             <SigupLayout>
-              <PhoneInput />
+              <FrameAndTradeInvest />
             </SigupLayout>
           }
         />

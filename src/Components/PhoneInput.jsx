@@ -39,6 +39,7 @@ const PhoneInput = () => {
         </svg>
         <input
           type="tel"
+          inputMode="tel"
           id={id}
           placeholder="+1"
           className="px-[10px] h-[44px] w-[522px] bg-[transparent] text-white outline-none	placeholder:text-[#F0F6FC]"
