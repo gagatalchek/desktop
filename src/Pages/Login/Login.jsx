@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import SigupLayout from "../../layouts/signup-layout";
-import FrameAndTradeInvest from "../../Components/FrameAndTradeInvest";
-import InputEmail from "../../Components/InputEmail";
-import InputPassword from "../../Components/InputPassword";
-import Button from "../../Components/Button";
+import FrameAndTradeInvest from "../../components/SignupPaper";
+import InputEmail from "../../components/inputs/input-email";
+import InputPassword from "../../components/inputs/input-password";
+import Button from "../../components/buttons/Button";
 
 const Login = () => {
   const [password, setPassword] = useState(true);
@@ -30,7 +30,7 @@ const Login = () => {
             </Link>
           </div>
         </div>
-        <div className="flex flex-col gap-[24px]">
+        <div className="flex flex-col gap-[24px] w-full">
           <InputEmail />
           <InputPassword />
           <Button>Log in</Button>

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import FrameAndTradeInvest from "../../Components/FrameAndTradeInvest";
+import FrameAndTradeInvest from "../../components/SignupPaper";
 
 const PasswordMail = () => {
   return (

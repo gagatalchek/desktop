@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import FrameAndTradeInvest from "../../Components/FrameAndTradeInvest";
-import NameInput from "../../Components/NameInput";
-import InputEmail from "../../Components/InputEmail";
-import PhoneInput from "../../Components/PhoneInput";
-import CountryInput from "../../Components/CountryInput";
-import InputPassword from "../../Components/InputPassword";
-import Button from "../../Components/Button";
+import FrameAndTradeInvest from "../../components/SignupPaper";
+import NameInput from "../../components/inputs/input-name";
+import InputEmail from "../../components/inputs/input-email";
+import PhoneInput from "../../components/inputs/input-phone";
+import CountryInput from "../../components/inputs/country-input";
+import InputPassword from "../../components/inputs/input-password";
+import Button from "../../components/buttons/Button";
 
 const Create_account = () => {
   const [password, setPassword] = useState(true);

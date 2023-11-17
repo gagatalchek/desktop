@@ -4,13 +4,13 @@ import PasswordMail from "../Pages/PasswordMail/PasswordMail";
 import ForgotPassword from "../Pages/ForgotPassword/ForgotPassword";
 import CreateAccount from "../Pages/CreateAccount/CreateAccont";
 import SigupLayout from "../layouts/signup-layout";
-import FrameAndTradeInvest from "../Components/FrameAndTradeInvest";
-import InputEmail from "../Components/InputEmail";
-import InputPassword from "../Components/InputPassword";
-import Button from "../Components/Button";
-import NameInput from "../Components/NameInput";
-import PhoneInput from "../Components/PhoneInput";
-import CountryInput from "../Components/CountryInput";
+import FrameAndTradeInvest from "../components/SignupPaper";
+import InputEmail from "../components/inputs/input-email";
+import InputPassword from "../components/inputs/input-password";
+import Button from "../components/buttons/Button";
+import NameInput from "../components/inputs/input-name";
+import PhoneInput from "../components/inputs/input-phone";
+import CountryInput from "../components/inputs/country-input";
 
 const RouterContainer = () => {
   return (

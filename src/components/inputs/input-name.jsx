@@ -4,10 +4,10 @@ const NameInput = () => {
   const id = useId();
 
   return (
-    <div className="h-[73px] w-[522px] ">
+    <div className="">
       <label
         htmlFor={id}
-        className="text-[#8B949E] text-[14px] font-normal leading-[150%] mb-[8px] "
+        className="text-[#8B949E] text-[14px] font-normal leading-[150%] mb-[8px] block"
       >
         Full name
       </label>
@@ -15,7 +15,7 @@ const NameInput = () => {
         <input
           id={id}
           placeholder="Name Surname"
-          className=" px-[10px] h-[44px] w-[522px] bg-[transparent] text-white outline-none	"
+          className=" px-[10px] h-[44px]  bg-[transparent] text-white outline-none	"
         />
       </div>
     </div>

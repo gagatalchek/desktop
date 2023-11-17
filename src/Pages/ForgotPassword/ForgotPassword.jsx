@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import FrameAndTradeInvest from "../../Components/FrameAndTradeInvest";
-import InputEmail from "../../Components/InputEmail";
-import Button from "../../Components/Button";
+import FrameAndTradeInvest from "../../components/SignupPaper";
+import InputEmail from "../../components/inputs/input-email";
+import Button from "../../components/buttons/Button";
 
 const Forgot_password = () => {
   return (
