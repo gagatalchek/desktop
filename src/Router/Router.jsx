@@ -4,13 +4,13 @@ import PasswordMail from "../Pages/PasswordMail/PasswordMail";
 import ForgotPassword from "../Pages/ForgotPassword/ForgotPassword";
 import CreateAccount from "../Pages/CreateAccount/CreateAccont";
 import SigupLayout from "../layouts/signup-layout";
-import FrameAndTradeInvest from "../components/SignupPaper";
+import FrameAndTradeInvest from "../components/sign-up-paper";
 import InputEmail from "../components/inputs/input-email";
 import InputPassword from "../components/inputs/input-password";
 import Button from "../components/buttons/Button";
 import NameInput from "../components/inputs/input-name";
 import PhoneInput from "../components/inputs/input-phone";
-import CountryInput from "../components/inputs/country-input";
+import CountryInput from "../components/inputs/input-country";
 
 const RouterContainer = () => {
   return (

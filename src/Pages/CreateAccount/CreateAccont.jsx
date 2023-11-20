@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import FrameAndTradeInvest from "../../components/SignupPaper";
+import FrameAndTradeInvest from "../../components/sign-up-paper";
 import NameInput from "../../components/inputs/input-name";
 import InputEmail from "../../components/inputs/input-email";
 import PhoneInput from "../../components/inputs/input-phone";
-import CountryInput from "../../components/inputs/country-input";
+import CountryInput from "../../components/inputs/input-country";
 import InputPassword from "../../components/inputs/input-password";
 import Button from "../../components/buttons/Button";
 
@@ -19,18 +19,21 @@ const Create_account = () => {
 
   return (
     <FrameAndTradeInvest>
-      <div className=" m-auto w-[387px] h-[74px] mb-[32px] ">
-        <p className="flex justify-center items-center text-[32px] font-700 leading-[120%] text-white mb-[12px] h-[38px] w-[387px]">
+      <div className=" m-auto tablet:w-[387px] h-[74px] mb-[24px] tablet:mb-[32px] ">
+        <p className=" flex justify-center items-center text-[20px] tablet:text-[32px] font-700 leading-[150%] tablet:leading-[120%] text-white mb-[12px] h-[38px] w-full tablet:w-[387px]">
           Create your account!
         </p>
-        <div className=" flex justify-center align-middle text-[16px] font-medium leading-[24px] text-[#8B949E] ">
+        <div className=" flex justify-center align-middle text-[12px] tablet:text-[16px] font-medium leading-[133%] tablet:leading-[150%] text-[#8B949E] ">
           Already heaven account?
-          <Link to={"#"} className="text-[#1F6FEB] ml-[4px]">
+          <Link
+            to={`/`}
+            className="text-[#1F6FEB] ml-[4px] text-[12px] tablet:text-[16px] font-medium leading-[133%] tablet:leading-[150%]"
+          >
             Log in
           </Link>
         </div>
       </div>
-      <div className="flex flex-col gap-[24px]">
+      <div className="flex flex-col gap-[16px] tablet:gap-[24px]">
         <NameInput />
 
         <InputEmail />
@@ -43,26 +46,26 @@ const Create_account = () => {
 
         <Button>Create account</Button>
 
-        <div className="flex flex-row">
-          <span className="flex justify-center items-center text-[12px] font-[500px] leading-[16px] text-[#8B949E] mr-[4px]">
+        <div className=" text-center max-w-[256px] tablet:max-w-none	tablet:text-start">
+          <span className="text-[12px] font-[500px] leading-[133%] text-[#8B949E] mr-[4px]">
             By creating an account, you agree to the
           </span>
           <Link
             to={"#"}
-            className=" flex justify-center items-center text-[12px] font-[500] leading-[16px] text-[#1F6FEB] mr-[4px]"
+            className="  text-[12px] font-[500] leading-[133%] text-[#1F6FEB] mr-[4px]"
           >
             Terms of Service
           </Link>
-          <span className="flex justify-center items-center text-[12px] font-[500px] leading-[16px] text-[#8B949E] mr-[4px]">
+          <span className=" text-[12px] font-[500px] leading-[133%] text-[#8B949E] mr-[4px]">
             and
           </span>
           <Link
             to={"#"}
-            className=" flex justify-center items-center text-[12px]  font-[500] leading-[16px] text-[#1F6FEB]"
+            className="  text-[12px]  font-[500] leading-[133%] text-[#1F6FEB]"
           >
             Privacy Policy
           </Link>
-          <span className="flex justify-center items-center text-[12px] font-[500px] leading-[16px] text-[#8B949E]">
+          <span className=" text-[12px] font-[500px] leading-[133%] text-[#8B949E]">
             .
           </span>
         </div>
